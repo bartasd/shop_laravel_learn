@@ -1,0 +1,25 @@
+.container {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: LibreFranklin;
+    font-size: 16px;
+    background-color: var(--triadic2Pallete);
+    color: var(--complPallete);
+}
+
+.container > div:first-of-type {
+    cursor: pointer;
+    margin-left: 15px;
+}
+.container > div:last-of-type {
+    margin-right: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.container > div:last-of-type > i,
+.container > div:last-of-type > a {
+    cursor: pointer;
+}

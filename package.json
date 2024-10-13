@@ -20,6 +20,10 @@
         "vite": "^5.0"
     },
     "dependencies": {
-        "bootstrap": "^5.3.3"
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.3",
+        "bootstrap-icons": "^1.11.3",
+        "react-bootstrap": "^2.10.5",
+        "styled-components": "^6.1.13"
     }
 }
