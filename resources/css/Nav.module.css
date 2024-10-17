@@ -5,8 +5,8 @@
     align-items: center;
     font-family: LibreFranklin;
     font-size: 16px;
-    background-color: var(--triadic2Pallete);
-    color: var(--complPallete);
+    background-color: var(--tr2);
+    color: var(--compl);
 }
 
 .container > div:first-of-type {

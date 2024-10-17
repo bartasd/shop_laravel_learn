@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    font-family: LibreFranklin;
+    font-size: 16px;
+    background-color: var(--prim);
+    color: var(--compl);
+    height: calc(100vh - 2 * 72px);
+}
+
+.shopnow {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shopnow > h1 {
+    margin-left: 15px;
+}
+
+.shopnow > p {
+    margin-left: 15px;
+}
+
+.image {
+    width: 50%;
+}
+
+.button {
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 200px;
+    text-align: center;
+    padding: 17px 0;
+    background-color: var(--tr2);
+}
+
+.button:hover {
+    box-shadow: 0 0 5px 5px white;
+    cursor: pointer;
+    font-weight: bold;
+}

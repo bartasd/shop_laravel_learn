@@ -4,6 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Banner from "./Banner";
 import Nav from "./Nav";
 import Hero from "./Hero";
+import Slider from "./Slider";
 
 export default function Index() {
     return (
@@ -24,7 +25,9 @@ export default function Index() {
                 </div>
             </div>
             <div className={"row"}>
-                <div className={"col"}>SLIDER</div>
+                <div className={"col"}>
+                    <Slider />
+                </div>
             </div>
             <div className={"row"}>
                 <div className={"col"}>STORY1</div>

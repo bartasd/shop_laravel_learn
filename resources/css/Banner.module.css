@@ -6,7 +6,7 @@
     position: relative;
     font-family: LibreFranklin;
     font-size: 16px;
-    background-color: var(--primPallete);
+    background-color: var(--prim);
     color: white;
 }
 

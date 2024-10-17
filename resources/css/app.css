@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @font-face {
     font-family: "LibreFranklin";
     src: url("../fonts/LibreFranklin-VariableFont_wght.ttf") format("truetype");
@@ -18,10 +14,16 @@
 }
 
 :root {
-    --primPallete: #8993e2;
-    --complPallete: #e2d989;
-    --anal1Pallete: #89bfe2;
-    --anal2Pallete: #ad89e2;
-    --triadic1Pallete: #d989e2;
-    --triadic2Pallete: #e28992;
+    --prim: #8993e2;
+    --compl: #e2d989;
+    --an1: #89bfe2;
+    --an2: #ad89e2;
+    --tr1: #d989e2;
+    --tr2: #e28992;
+    --outline: #f0e6e6;
+}
+
+#app {
+    background-color: var(--outline);
+    height: 100vh;
 }

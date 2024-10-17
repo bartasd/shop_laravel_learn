@@ -1,0 +1,50 @@
+.container {
+    width: calc((100% - 240px) / 3);
+    height: 100%;
+}
+
+.photo {
+    width: 100%;
+    height: 60%;
+    border: 1px solid black;
+}
+
+.options {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productName {
+    font-weight: bold;
+}
+
+.quantifier,
+.addToCart {
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+    height: 35px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.quantity {
+    width: 90%;
+    position: absolute;
+    top: -25px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.quantifier > p {
+    margin: 0;
+}
