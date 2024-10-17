@@ -5,6 +5,7 @@ import Banner from "./Banner";
 import Nav from "./Nav";
 import Hero from "./Hero";
 import Slider from "./Slider";
+import Promo from "./Promo";
 
 export default function Index() {
     return (
@@ -30,10 +31,14 @@ export default function Index() {
                 </div>
             </div>
             <div className={"row"}>
-                <div className={"col"}>STORY1</div>
+                <div className={"col"}>
+                    <Promo first={true} />
+                </div>
             </div>
             <div className={"row"}>
-                <div className={"col"}>STORY2</div>
+                <div className={"col"}>
+                    <Promo inverted={true} />
+                </div>
             </div>
             <div className={"row"}>
                 <div className={"col"}>STORY3</div>

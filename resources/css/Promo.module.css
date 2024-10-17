@@ -1,0 +1,56 @@
+.container {
+    height: 60vh;
+    border: 1px solid black;
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: chocolate;
+    color: white;
+}
+
+.inverted {
+    flex-direction: row-reverse;
+}
+
+.first {
+    border-top: 1px solid black;
+}
+
+.image,
+.info {
+    width: 40%;
+    height: 80%;
+}
+
+.image {
+    border: 3px solid black;
+    border-radius: 25%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.infoInverted {
+    align-items: self-end;
+}
+
+.info > h1 {
+    width: 50%;
+}
+
+.button {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 170px;
+    padding: 5px 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
