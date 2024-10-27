@@ -1,0 +1,14 @@
+.container {
+    height: 90px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > h1,
+.container > p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

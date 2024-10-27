@@ -6,6 +6,9 @@ import Nav from "./Nav";
 import Hero from "./Hero";
 import Slider from "./Slider";
 import Promo from "./Promo";
+import Ad from "./Ad";
+import Story from "./Story";
+import Introduce from "./Introduce";
 
 export default function Index() {
     return (
@@ -32,7 +35,17 @@ export default function Index() {
             </div>
             <div className={"row"}>
                 <div className={"col"}>
+                    <Ad />
+                </div>
+            </div>
+            <div className={"row"}>
+                <div className={"col"}>
                     <Promo first={true} />
+                </div>
+            </div>
+            <div className={"row"}>
+                <div className={"col"}>
+                    <Ad />
                 </div>
             </div>
             <div className={"row"}>
@@ -41,10 +54,24 @@ export default function Index() {
                 </div>
             </div>
             <div className={"row"}>
-                <div className={"col"}>STORY3</div>
+                <div className={"col"}>
+                    <Ad />
+                </div>
             </div>
             <div className={"row"}>
-                <div className={"col"}>STORY4</div>
+                <div className={"col"}>
+                    <Story />
+                </div>
+            </div>
+            <div className={"row"}>
+                <div className={"col"}>
+                    <Ad />
+                </div>
+            </div>
+            <div className={"row"}>
+                <div className={"col"}>
+                    <Introduce />
+                </div>
             </div>
             <div className={"row"}>
                 <div className={"col"}>ALT NAVIGATION</div>
