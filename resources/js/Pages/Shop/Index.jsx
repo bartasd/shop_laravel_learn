@@ -9,6 +9,7 @@ import Promo from "./Promo";
 import Ad from "./Ad";
 import Story from "./Story";
 import Introduce from "./Introduce";
+import AltNav from "./AltNav";
 
 export default function Index() {
     return (
@@ -74,7 +75,9 @@ export default function Index() {
                 </div>
             </div>
             <div className={"row"}>
-                <div className={"col"}>ALT NAVIGATION</div>
+                <div className={"col"}>
+                    <AltNav />
+                </div>
             </div>
         </div>
     );
